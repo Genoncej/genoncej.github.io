@@ -1,1 +1,42 @@
+*{
+    font-family: sans-serif;
+    background-color: #103025;
+    color: white;
+}
+body{
+    position: relative;
+}
 
+#navLinks{
+    display: flex;
+    justify-content: flex-end;
+}
+#navLinks > a{
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 18px;
+}
+#navLinks a:hover{
+    background-color: #287A5E;
+    border-radius: 45px;
+}
+
+#welcome{
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+#welDeb{
+    font-size: 20px;
+}
+#name{
+    font-size: 60px;
+    text-align: right;
+    margin-right: 18%;
+}
+#welDesc{
+    font-size: 20px;
+    width: 22vw;
+    text-align: justify;
+}
